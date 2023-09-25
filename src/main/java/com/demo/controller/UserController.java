@@ -34,14 +34,14 @@ public class UserController
 
 
 
-//    @GetMapping("/get/{uid}")
-//    public User getUserData(@PathVariable Integer uid)
-//    {
-//        User u2=userService.getUserData(uid);
-//
-//        return u2;
-//
-//    }
+   @GetMapping("/get/{uid}")
+   public User getUserData(@PathVariable Integer uid)
+   {
+       User u2=userService.getUserData(uid);
+
+       return u2;
+
+   }
 //
 //    @GetMapping("/getall")
 //    public List<User> getAllUsersData()
